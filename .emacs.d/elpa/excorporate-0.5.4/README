@@ -1,0 +1,15 @@
+Excorporate provides Exchange integration for Emacs.
+
+To create a connection to a web service:
+
+M-x excorporate
+
+Excorporate will prompt for an email address that it will use to
+automatically discover settings.  Then it will connect to two
+separate hosts: the autodiscovery host and the web service host, so
+you may be prompted for your credentials twice.
+
+You should see a message indicating that the connection is ready
+either in the minibuffer or failing that in the *Messages* buffer.
+
+Finally, run M-x calendar, and press 'e' to show today's meetings.
